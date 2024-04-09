@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+ {
+
+    color: blueviolet;
+    font-family: 'Poppins';
+
+}
+nav
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+     background-color: rgb(18,18,62);
+ }
+nav ul
+{
+                display: flex;
+                justify-content: center;
+
+}
+            
+            
+            
+           .button1
+            {
+                background-color: violet;
+                border: none;
+                color: white;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                
+                cursor: pointer;
+                border-radius: 12px;
+            }
+            nav ul li
+            {
+                list-style: none;
+                margin: 0 23px;
+
+            }
+             nav ul li a
+            {
+                text-decoration: none;
+                color: white;
+
+            }
+            nav ul li a:hover
+            {
+               color: lavender;
+               font-size: 1.04rem;
+
+            }
+            main
+            {
+                background-color: lightgrey;
+            }
+            main hr
+            {
+                border: 0;
+                background: #9c97f1;
+                height: 1.2px;
+                margin: 60px 84px;
+
+            }
+            .left
+            {
+                font-size: 1.5rem;
+            }
+            .first
+            {
+                display:flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 20px 0;
+
+
+            }
+            .first > div
+            {
+                width: 30%;
+
+
+            }
+            .leftSection
+            {
+                
+                font-size: 3rem;
+                
+                
+            }
+             .rightSection img
+            {
+                width: 80%;
+                margin: 50px 0;
+                
+            }
+           .purple
+            {
+                color: blueviolet;
+            }
+            #element
+            {
+                color: green;
+            }
+            .second
+            {
+                max-width: 80vw;
+                margin: auto;
+            }
+            .second
+            {
+                font-size: 1.2rem;
+                height: 60vh;
+            }
+            .text-gray
+            {
+                color:gray;
+            }
+            .second .box
+            {
+                background: grey;
+                width: 76vw;
+                height: 2px;
+                margin: 56px 0;
+                display: flex;
+            }
+            .second .vertical
+            {
+                height: 93px;
+                width: 1px;
+                background-color: black;
+                margin: 0 140px;
+            }
+            /*.img-top
+            {
+                width: 23px;
+                position: relative;
+                top: -32px;
+                left: -9px;
+            }*/
+            .vertical-title
+            {
+                position: relative;
+                top: 90px;
+                width: 150px;
+
+            }
+            .vertical-desc
+            {
+                position: relative;
+                top: 86px;
+                color: gray;
+                width: 150px;
+                font-size: 9px;
+
+            }
+            .footer_container
+{
+    padding: 30px 0px 40px 0px;
+    background: black;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.footer_column
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer_column a
+{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.footer_column h3
+{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
